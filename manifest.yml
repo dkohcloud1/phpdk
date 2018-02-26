@@ -1,0 +1,8 @@
+---
+applications:
+- name: myapp-dev-dk
+memory: 256M
+instances: 1
+host: myapp-dev-dk
+buildpack: https://github.com/cloudfoundry/php-buildpack.git
+stack: cflinuxfs2
